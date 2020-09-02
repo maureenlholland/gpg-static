@@ -1,0 +1,10 @@
+$font-path: '/static/fonts';
+$image-path: '/static/img';
+
+@import '../protocol/css/protocol.scss';
+@import '../protocol/css/components/emphasis-box';
+
+.c-page-header {
+    background: $color-black;
+    color: $color-white;
+}

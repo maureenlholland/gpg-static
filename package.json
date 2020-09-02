@@ -1,0 +1,15 @@
+{
+  "name": "themetest",
+  "version": "1.0.0",
+  "description": "testing protocol theme",
+  "main": "index.html",
+  "author": "Craig",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@mozilla-protocol/core": "^12.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
