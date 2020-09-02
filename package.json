@@ -1,9 +1,9 @@
 {
-  "name": "themetest",
+  "name": "GPG key server",
   "version": "1.0.0",
-  "description": "testing protocol theme",
+  "description": "Static placeholder page",
   "main": "index.html",
-  "author": "Craig",
+  "author": "Craig Cook",
   "license": "MPL-2.0",
   "dependencies": {
     "@mozilla-protocol/core": "^12.0.0"
