@@ -16,10 +16,8 @@ $image-path: '../img' !default;
 @import 'includes/fonts/zilla-slab';
 
 // Base elements - general HTML elements
-@import 'base/elements';
-
-// Base includes - animations
-@import 'base/includes';
-
-// Utility includes
-@import 'base/utilities/typography';
+@import 'base/elements/reset';
+@import 'base/elements/document';
+@import 'base/elements/links';
+@import 'base/elements/sections';
+@import 'base/elements/typography';
