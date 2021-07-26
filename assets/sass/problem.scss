@@ -10,6 +10,6 @@ In head:
 @import './node_modules/@mozilla-protocol/core/protocol/css/components/call-out';
 
 // TEST:
-// if emphasis box import is uncommented, it shows mozilla theme color because the current file theme overrides style.scss
+// if emphasis box import is uncommented, it shows mozilla theme styles because the current file theme overrides style.scss
 // if emphasis box import is commented out, it shows firefox theme inherited from style.css cascade
 // @import './node_modules/@mozilla-protocol/core/protocol/css/components/emphasis-box';

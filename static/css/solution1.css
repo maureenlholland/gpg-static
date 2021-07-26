@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*
+In head:
+<link rel="stylesheet" href="./static/css/style.css" type="text/css">
+<link rel="stylesheet" href="./static/css/solution1.css" type="text/css">
+*/
 @font-face {
   font-display: swap;
   font-family: Inter;
