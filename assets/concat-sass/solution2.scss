@@ -1,0 +1,3 @@
+// Solution 2: concatenate relevant sass files to share variables and only include one css link in html page
+@debug "theme: #{$brand-theme}";
+@import './node_modules/@mozilla-protocol/core/protocol/css/components/call-out';

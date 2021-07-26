@@ -1,0 +1,7 @@
+// Solution 3 - reset variables on page-specific files as needed
+$brand-theme: 'firefox';
+
+@import './node_modules/@mozilla-protocol/core/protocol/css/protocol.scss';
+@debug "theme: #{$brand-theme}";
+@import './node_modules/@mozilla-protocol/core/protocol/css/components/call-out';
+@import './node_modules/@mozilla-protocol/core/protocol/css/components/emphasis-box';

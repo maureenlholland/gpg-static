@@ -1,0 +1,15 @@
+/*
+In head:
+<link rel="stylesheet" href="./static/css/style.css" type="text/css">
+<link rel="stylesheet" href="./static/css/problem.css" type="text/css">
+*/
+
+// Problem - problem.css accepts cascade styles from style.css but cannot access theme variable from style.scss
+@import './node_modules/@mozilla-protocol/core/protocol/css/protocol.scss';
+@debug "theme: #{$brand-theme}";
+@import './node_modules/@mozilla-protocol/core/protocol/css/components/call-out';
+
+// TEST:
+// if emphasis box import is uncommented, it shows mozilla theme color because the current file theme overrides style.scss
+// if emphasis box import is commented out, it shows firefox theme inherited from style.css cascade
+// @import './node_modules/@mozilla-protocol/core/protocol/css/components/emphasis-box';

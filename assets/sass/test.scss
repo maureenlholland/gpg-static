@@ -1,6 +1,0 @@
-@import 'style'; // problem with duplication here - these styles are available with site.css in bedrock, we just want the variables
-// are we taking advantage of caching for core lib?
-// @import './node_modules/@mozilla-protocol/core/protocol/css/protocol.scss';
-@debug "theme: #{$brand-theme}";
-@import './node_modules/@mozilla-protocol/core/protocol/css/components/call-out';
-@import './node_modules/@mozilla-protocol/core/protocol/css/components/emphasis-box';

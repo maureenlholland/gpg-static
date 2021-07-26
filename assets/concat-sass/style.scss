@@ -1,5 +1,6 @@
-// Solution 1 - image and font paths can be shared, but needs to change theme var based on firefox or mozilla page
-@import 'variables';
+$font-path: '../../node_modules/@mozilla-protocol/core/protocol/fonts';
+$image-path: '../img';
+$brand-theme: 'firefox';
 
 @import './node_modules/@mozilla-protocol/core/protocol/css/protocol.scss';
 @debug "theme: #{$brand-theme}";
