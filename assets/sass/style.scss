@@ -1,8 +1,10 @@
 $font-path: '/static/fonts';
 $image-path: '/static/img';
+$brand-theme: 'firefox';
 
-@import '../protocol/css/protocol.scss';
-@import '../protocol/css/components/emphasis-box';
+@import './node_modules/@mozilla-protocol/core/protocol/css/protocol.scss';
+@debug "theme: #{$brand-theme}";
+@import './node_modules/@mozilla-protocol/core/protocol/css/components/emphasis-box';
 
 .c-page-header {
     background: $color-black;
